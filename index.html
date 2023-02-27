@@ -4,27 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Integrador</title>
+    <title>CV Tomas Motula</title>
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/9804/9804842.png">
     <link rel="stylesheet" href="Estilos/Curriculum.css">
     
 </head>
 <body>
-
-    <h1> Prueba de texto 123, probando git </h1>
    
-    <img src="C:\Users\Guillermo\Desktop\Curso de Programacion Front End\Desarrollo Web\integrador\Imagenes\fotoppal.jpg" alt="imagen de hombre hacia las montañas">
-
-    <section>
-
-      
-      <video width="320" height="240" controls>
-        <source src="C:\Users\Guillermo\Desktop\Curso de Programacion Front End\Desarrollo Web\integrador\Imagenes\video montaña.mp4" type="video/mp4">
-        <source src="C:\Users\Guillermo\Desktop\Curso de Programacion Front End\Desarrollo Web\integrador\Imagenes\video montaña.ogg" type="video/ogg">
-      Tu navegador no soporta este formato de video, prueba con usar otro navegador.
-      </video>
+  <!-- Menu -->
     
-    </section>
+    <header>
+
+    <nav>
+        <ul> 
+		        <li><a href="#">Experiencia</a></li>
+		        <li><a href="#">Estudios</a></li>
+		        <li><a href="#">Idiomas</a></l>
+		        <li><a href="#">Contacto</a></li>
+	     </ul>
+    </nav>
+
+    </header>
+
+    
+    <main>
+      <section id="datos">
+        <h1>Tomas Motula</h1>
+        <h2>Instructor de alta Montaña</h2>
+         <div class="foto-principal">
+          <img src="Imagenes/fotoppal.jpg" alt="hombre mirando hacia montaña">
+           
+         </div>
+
+      </section>
+
+      <section id="laboral">
+        <h2>Experiencia</h2>
+        
+         <section id= "experiencia">
+
+          <div class="trabajos-realizados">
+
+            <div class="trabajo">
+              <img src="Imagenes/instructor.jpg" alt="Imagen de instrucor de alta montaña">
+              <p>Instructor de Alta Montaña en Puente del Inca, Mendoza, Argentina. Durante 10 años</p>
+            </div>
+          
+            <div class="trabajo">
+              <img src="Imagenes/bombero.jpg" alt="Imagen de bomberos voluntarios">
+              <p>Bombero Voluntario en Lujan de Cuyo hace 2 años</p>
+            </div>
+
+            <div class="trabajo">
+              <img src="Imagenes/piloto.jpg" alt="Imagen de piloto de avion">
+              <p>Piloto de Helicoptero con mas de 300hs de vuelo</p>
+            </div>
+
+            <div class="trabajo">
+              <img src="Imagenes/educacionfisica.jpg" alt="Imagen de profesor de educacion fisica">
+              <p>Profesor de educacion fisica nivel medio</p>
+            </div>
+
+          </div>
+          
+
+        </section>
+
+      </section>
+
+      <section id="contacto">
+        
+        <h2>Contactame</h2>
+           
+         <form>
+            <div>
+              <label>Nombre</label>
+              <input type="text">
+            </div>
+
+            <div>
+              <label>Apellido</label>
+              <input type="text">
+            </div>
+
+            <div>
+              <label>Mail</label>
+              <input type="email">
+            </div>
+
+            <div>
+              <label>Mensaje</label>
+              <textarea></textarea> 
+            </div>
+
+            <div>
+              <button>Enviar</button>
+            </div>
+           
+        </form>
+
+      </section>
+    </main>
+
+    <footer></footer>
+    
     
 </body>
 </html>
